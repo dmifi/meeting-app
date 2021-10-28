@@ -1,0 +1,18 @@
+# Локальные настройки
+/meeting_website/local_settings.py
+
+# База данных
+db.sqlite3
+
+# Виртуальное окружение
+venv/
+
+# Миграции
+/users/migrations/
+/media/
+
+__pycache__/
+*.py[cod]
+*$py.class
+/static/
+/static_dev/
