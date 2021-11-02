@@ -8,11 +8,16 @@ db.sqlite3
 venv/
 
 # Миграции
-/users/migrations/
-/media/
+/users/migrations/*
+!/users/migrations/__init__.py
+
+
+# Медиа файлы
+/media/avatar/
+/media/original/
 
 __pycache__/
 *.py[cod]
 *$py.class
-/static/
-/static_dev/
+/static/*
+/static_dev/*
